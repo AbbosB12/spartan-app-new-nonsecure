@@ -8,7 +8,7 @@ cat Dockerfile
 
  RUN mvn package -DskipTests
 
- FROM adoptopenjdk/openjdk11:jre
+ FROM adoptopenjdk/openjdk21:jre
 
  COPY --from=builder usr/app/target/spartan-app-new-nonsecure-0.0.1-SNAPSHOT.jar /spartan-app-new-nonsecure-0.0.1-SNAPSHOT.jar
 
