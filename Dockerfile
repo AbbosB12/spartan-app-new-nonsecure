@@ -1,4 +1,4 @@
-/home/ubuntu/spartan-app-new-nonsecure# cat Dockerfile
+cat Dockerfile
  FROM maven:3.6.3-jdk-21-openj9 AS builder
 
  WORKDIR usr/app
