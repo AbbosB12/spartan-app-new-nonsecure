@@ -11,10 +11,10 @@ services:
     container_name: spartan-db-container
     env_file:
       - .env_db
-    #    environment:
-    #      POSTGRES_DB=spartan-app-db
-    #      POSTGRES_USER=Cydeo123*!@
-    #      POSTGRES_PASSWORD=Cydeo123*!@
+#        environment:
+#          POSTGRES_DB=spartan-app-db
+#          POSTGRES_USER=Cydeo123*!@
+#          POSTGRES_PASSWORD=Cydeo123*!@
     networks:
       - spartan-network
     volumes:
